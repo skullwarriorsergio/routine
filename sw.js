@@ -1,5 +1,5 @@
 // Offline support: the app opens instantly from the cache, then refreshes itself in the background.
-const CACHE = 'routine-90e58a1827';
+const CACHE = 'routine-05a18e8c6a';
 const ASSETS = [
  "./",
  "./index.html",
@@ -84,7 +84,11 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // cache: 'reload' skips the browser's HTTP cache (GitHub Pages allows 10 min), so a new version
+  // always stores the files that were just published
+  e.waitUntil(caches.open(CACHE)
+    .then(c => c.addAll(ASSETS.map(u => new Request(u, {cache: 'reload'}))))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
