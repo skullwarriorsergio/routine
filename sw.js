@@ -1,5 +1,5 @@
 // Offline support: the app opens instantly from the cache, then refreshes itself in the background.
-const CACHE = 'routine-91a51025b6';
+const CACHE = 'routine-a9ff7e8496';
 const ASSETS = [
  "./",
  "./index.html",
@@ -35,6 +35,7 @@ const ASSETS = [
  "./img/anim/rev_crunch.webp",
  "./img/anim/rev_pec.webp",
  "./img/anim/rope_pushdown.webp",
+ "./img/anim/scap_pd.webp",
  "./img/anim/sl_rdl.webp",
  "./img/anim/smith_shrug.webp",
  "./img/anim/straight_arm.webp",
@@ -74,6 +75,7 @@ const ASSETS = [
  "./img/thumb/rev_crunch.webp",
  "./img/thumb/rev_pec.webp",
  "./img/thumb/rope_pushdown.webp",
+ "./img/thumb/scap_pd.webp",
  "./img/thumb/sl_rdl.webp",
  "./img/thumb/smith_shrug.webp",
  "./img/thumb/straight_arm.webp",
