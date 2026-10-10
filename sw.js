@@ -1,5 +1,5 @@
 // Offline support: the app opens instantly from the cache, then refreshes itself in the background.
-const CACHE = 'routine-f66d91d9a9';
+const CACHE = 'routine-ac0cd051b6';
 const ASSETS = [
  "./",
  "./index.html",
