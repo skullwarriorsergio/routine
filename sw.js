@@ -1,5 +1,5 @@
 // Offline support: the app opens instantly from the cache, then refreshes itself in the background.
-const CACHE = 'routine-05a18e8c6a';
+const CACHE = 'routine-245a73bbcc';
 const ASSETS = [
  "./",
  "./index.html",
@@ -9,11 +9,9 @@ const ASSETS = [
  "./icon-512.png",
  "./img/anim/arnold.webp",
  "./img/anim/back_ext.webp",
- "./img/anim/bench.webp",
  "./img/anim/cable_lateral.webp",
  "./img/anim/cable_row.webp",
  "./img/anim/calf.webp",
- "./img/anim/cs_pulldown.webp",
  "./img/anim/db_lateral.webp",
  "./img/anim/db_shoulder_press.webp",
  "./img/anim/face_pull.webp",
@@ -21,6 +19,7 @@ const ASSETS = [
  "./img/anim/htl_fly.webp",
  "./img/anim/incline_db.webp",
  "./img/anim/katana.webp",
+ "./img/anim/lat_pd.webp",
  "./img/anim/leg_curl.webp",
  "./img/anim/leg_ext.webp",
  "./img/anim/leg_press.webp",
@@ -32,7 +31,6 @@ const ASSETS = [
  "./img/anim/mts_row.webp",
  "./img/anim/plank.webp",
  "./img/anim/preacher.webp",
- "./img/anim/pullup.webp",
  "./img/anim/pushdown.webp",
  "./img/anim/rev_crunch.webp",
  "./img/anim/rev_pec.webp",
@@ -40,6 +38,7 @@ const ASSETS = [
  "./img/anim/sl_rdl.webp",
  "./img/anim/smith_shrug.webp",
  "./img/anim/straight_arm.webp",
+ "./img/anim/vbar_pd.webp",
  "./img/anim/zottman.webp",
  "./img/r15c6.png",
  "./img/r18c5.png",
@@ -48,11 +47,9 @@ const ASSETS = [
  "./img/thumb/back_ext.webp",
  "./img/thumb/bayesian.webp",
  "./img/thumb/behind_ext.webp",
- "./img/thumb/bench.webp",
  "./img/thumb/cable_lateral.webp",
  "./img/thumb/cable_row.webp",
  "./img/thumb/calf.webp",
- "./img/thumb/cs_pulldown.webp",
  "./img/thumb/db_lateral.webp",
  "./img/thumb/db_shoulder_press.webp",
  "./img/thumb/face_pull.webp",
@@ -61,6 +58,7 @@ const ASSETS = [
  "./img/thumb/htl_fly.webp",
  "./img/thumb/incline_db.webp",
  "./img/thumb/katana.webp",
+ "./img/thumb/lat_pd.webp",
  "./img/thumb/leg_curl.webp",
  "./img/thumb/leg_ext.webp",
  "./img/thumb/leg_press.webp",
@@ -72,7 +70,6 @@ const ASSETS = [
  "./img/thumb/mts_row.webp",
  "./img/thumb/plank.webp",
  "./img/thumb/preacher.webp",
- "./img/thumb/pullup.webp",
  "./img/thumb/pushdown.webp",
  "./img/thumb/rev_crunch.webp",
  "./img/thumb/rev_pec.webp",
@@ -80,6 +77,7 @@ const ASSETS = [
  "./img/thumb/sl_rdl.webp",
  "./img/thumb/smith_shrug.webp",
  "./img/thumb/straight_arm.webp",
+ "./img/thumb/vbar_pd.webp",
  "./img/thumb/zottman.webp"
 ];
 
